@@ -1,5 +1,5 @@
 title_primary: "洺Eryet" # the bigger text
-title_secondary: "我可不是為了被全人類喜歡才活著的，只要對於某些個人來說我是必要的，我就能活下去。" # the smaller text
+title_secondary: "我可不是為了被全人類喜歡才活著的。" # the smaller text
 keywords:
 
 twitter: #username
@@ -22,4 +22,4 @@ showCategories: true
 showTags: true
 
 # Color scheme
-themeStyle: light # light/dark
+themeStyle: dark # light/dark
