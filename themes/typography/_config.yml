@@ -1,12 +1,12 @@
-title_primary: "活版印字" # the bigger text
-title_secondary: "Typography" # the smaller text
+title_primary: "洺Eryet" # the bigger text
+title_secondary: "我可不是為了被全人類喜歡才活著的，只要對於某些個人來說我是必要的，我就能活下去。" # the smaller text
 keywords:
 
 twitter: #username
-rss: atom.xml
+rss: 
 weibo: #username/id
 instagram: #username
-github: #username
+github: https://github.com/eryet
 
 # Choose the comment service according to your need.
 # Please do not use the two services at the same time.
