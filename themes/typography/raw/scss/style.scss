@@ -25,7 +25,7 @@ h6 {
 }
 
 html {
-  background: $backgroundColor;
+  background: url("https://raw.githubusercontent.com/EryetChen/hexo/master/themes/typography/source/images/bg_pattern.png");
 }
 
 .foreground {
@@ -33,7 +33,7 @@ html {
 }
 
 .background {
-  background: $backgroundColor !important;
+  background: url("https://raw.githubusercontent.com/EryetChen/hexo/master/themes/typography/source/images/bg_pattern.png");
 }
 
 .foreground-text * {
