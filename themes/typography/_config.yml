@@ -22,4 +22,4 @@ showCategories: true
 showTags: true
 
 # Color scheme
-themeStyle: dark # light/dark
+themeStyle: light # light/dark
