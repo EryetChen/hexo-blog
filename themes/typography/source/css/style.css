@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,300,400,600");
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif+SC:100,300,400,600");
 @keyframes fadein {
   from {
     opacity: 0;
@@ -168,18 +169,33 @@
   animation: swift-down 1s reverse ease-out;
 }
 
-html,
-body,
-span,
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+html body,
+html span,
+html p,
+html h1,
+html h2,
+html h3,
+html h4,
+html h5,
+html h6 {
   font-family: "Josefin Sans Light", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "PingFang SC", "'Hiragino Sans GB", STHeiti, "Microsoft Yahei", "Source Han Sans SC", "Noto Sans CJK SC", "WenQuanYi Micro Hei", Arial, Verdana, sans-serif;
   color: #2e405b;
+}
+
+html.serif body,
+html.serif span,
+html.serif p,
+html.serif h1,
+html.serif h2,
+html.serif h3,
+html.serif h4,
+html.serif h5,
+html.serif h6 {
+  font-family: "Source Han Serif CN", "Source Han Serif SC", "Source Han Serif", "source-han-serif-sc", "Noto Serif SC", "Noto Serif", "noto-serif-sc", "PT Serif", "SongTi SC", serif;
+}
+
+.fa {
+  font-family: FontAwesome;
 }
 
 html {
@@ -822,5 +838,76 @@ figure .code pre {
   .site-bottom-footer {
     display: block !important;
   }
+}
+
+html::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+html::-webkit-scrollbar-thumb {
+  height: 40px;
+  background-color: #eee;
+  border-radius: 16px;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background-color: #ddd;
+}
+
+body {
+  color: #606975;
+  font-weight: 400;
+}
+
+body .site-title * {
+  font-family: 'Noto Serif SC',"HiraMinProN-W6","Source Han Serif CN","Source Han Serif SC","Source Han Serif TC",serif;
+}
+
+.main-container p {
+  margin: 10px 0 0;
+  font-size: 17px;
+  line-height: 1.7em;
+  letter-spacing: .6px;
+}
+
+.main-container video {
+  max-width: 100%;
+}
+
+.main-container .post-title {
+  font-size: 24px;
+}
+
+.main-container .post-meta {
+  font-size: 14px;
+}
+
+.archive .post-title {
+  font-size: 17px;
+}
+
+a:not[data=""] {
+  padding: 4px 2px 2px;
+}
+
+a:not[data=""].headerlink {
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+strong {
+  font-family: 'Josefin Sans SemiBold', -apple-system, BlinkMacSystemFont, "Helvetica Neue", "PingFang SC", "'Hiragino Sans GB", STHeiti, "Microsoft Yahei", "Source Han Sans SC", "Noto Sans CJK SC", "WenQuanYi Micro Hei", Arial, Verdana, sans-serif;
+}
+
+code[class*="language-"],
+pre[class*="language-"] {
+  font-size: 12px !important;
 }
 /*# sourceMappingURL=style.css.map */

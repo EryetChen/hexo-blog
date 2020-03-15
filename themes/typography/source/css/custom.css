@@ -1,0 +1,71 @@
+html::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+html::-webkit-scrollbar-thumb {
+  height: 40px;
+  background-color: #eee;
+  border-radius: 16px;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background-color: #ddd;
+}
+
+body {
+  color: #606975;
+  font-weight: 400;
+}
+
+body .site-title * {
+  font-family: 'Noto Serif SC',"HiraMinProN-W6","Source Han Serif CN","Source Han Serif SC","Source Han Serif TC",serif;
+}
+
+.main-container p {
+  margin: 10px 0 0;
+  font-size: 17px;
+  line-height: 1.7em;
+  letter-spacing: .6px;
+}
+
+.main-container video {
+  max-width: 100%;
+}
+
+.main-container .post-title {
+  font-size: 24px;
+}
+
+.main-container .post-meta {
+  font-size: 14px;
+}
+
+.archive .post-title {
+  font-size: 17px;
+}
+
+a:not[data=""] {
+  padding: 4px 2px 2px;
+}
+
+a:not[data=""].headerlink {
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+strong {
+  font-family: 'Josefin Sans SemiBold', -apple-system, BlinkMacSystemFont, "Helvetica Neue", "PingFang SC", "'Hiragino Sans GB", STHeiti, "Microsoft Yahei", "Source Han Sans SC", "Noto Sans CJK SC", "WenQuanYi Micro Hei", Arial, Verdana, sans-serif;
+}
+
+code[class*="language-"],
+pre[class*="language-"] {
+  font-size: 12px !important;
+}
+/*# sourceMappingURL=custom.css.map */
