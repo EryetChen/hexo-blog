@@ -45,6 +45,10 @@ body .site-title * {
   font-size: 17px;
 }
 
+/*.autopagerize_page_element{
+  
+}
+*/
 a:not[data=""] {
   padding: 4px 2px 2px;
 }
@@ -67,5 +71,11 @@ strong {
 code[class*="language-"],
 pre[class*="language-"] {
   font-size: 12px !important;
+}
+
+img.kanon {
+  position: absolute;
+  z-index: 2;
+  right: 10%;
 }
 /*# sourceMappingURL=custom.css.map */
