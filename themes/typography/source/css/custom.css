@@ -74,8 +74,7 @@ pre[class*="language-"] {
 }
 
 img.kanon {
-  position: absolute;
-  z-index: 2;
-  right: 10%;
+  float: right;
+  margin: 0px 0px 15px 15px;
 }
 /*# sourceMappingURL=custom.css.map */
