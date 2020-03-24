@@ -12,6 +12,7 @@
     "version": "4.2.0"
   },
   "dependencies": {
+    "clean-css-cli": "^4.3.0",
     "hexo": "^4.0.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category-enhance": "^0.1.6",
