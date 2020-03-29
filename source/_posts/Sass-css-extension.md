@@ -1,9 +1,11 @@
 ---
 title: Sass - a css extension I hope I wish I'd known a long time ago
-tags:
 categories:
-- Coding
+  - Coding
+date: 2020-03-29 16:14:15
+tags:
 ---
+
 
 On my progress on learning to build a blog for my own, I came across [Sass](https://sass-lang.com/), which is an extension for css. It is probably one of the best css extension I came across, it could save u a whole lot of time trying to adjust html layout through css with its couple really cool features to help u coding for css.
 
@@ -72,5 +74,7 @@ head {
 }
 
 ```
+
+___
 
 There is still a lot of features Sass offer, like able use operator to perform calculation and much more, detailed guide was on their [website](https://sass-lang.com/guide). I highly recommened to try out sass if u find urself annoyed with css.
