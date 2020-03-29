@@ -45,7 +45,7 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
+  enable: false
   line_number: true
   auto_detect: false
   tab_replace: ''
@@ -133,7 +133,7 @@ feed:
 # For syntax highlighting
 prism_plugin:
   mode: 'preprocess'
-  theme: 'default'
+  theme: 'theme'
   line_number: true
 
 # Deployment
