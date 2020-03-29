@@ -133,7 +133,7 @@ feed:
 # For syntax highlighting
 prism_plugin:
   mode: 'preprocess'
-  theme: 'duotone-dark'
+  theme: 'atom-dark'
   line_number: true
 
 # Deployment
