@@ -179,7 +179,7 @@ html h4,
 html h5,
 html h6 {
   font-family: "Josefin Sans Light", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "PingFang SC", "'Hiragino Sans GB", STHeiti, "Source Han Sans SC", "Noto Sans CJK SC", "WenQuanYi Micro Hei", Arial, Verdana, sans-serif;
-  color: #2e405b;
+  color: #01669a;
 }
 
 html.serif body,
@@ -203,7 +203,7 @@ html {
 }
 
 .foreground {
-  background: #2e405b !important;
+  background: #01669a !important;
 }
 
 .background {
@@ -211,7 +211,7 @@ html {
 }
 
 .foreground-text * {
-  color: #2e405b !important;
+  color: #01669a !important;
 }
 
 .background-text * {
@@ -352,7 +352,7 @@ body::before {
   text-align: left;
   font-size: 0.5em;
   padding: 0 0 50px 0;
-  border-left: solid #2e405b 2px;
+  border-left: solid #01669a 2px;
   -webkit-transition: padding 0.8s ease 0s, background 0.8s ease 0s;
   transition: padding 0.8s ease 0s, background 0.8s ease 0s;
 }
@@ -360,8 +360,8 @@ body::before {
 .site-title:hover {
   padding: 15px 0 35px 0;
   color: #ffffff !important;
-  background: #2e405b !important;
-  border-left: solid #2e405b 2px;
+  background: #01669a !important;
+  border-left: solid #01669a 2px;
 }
 
 .site-title:hover * {
@@ -413,7 +413,7 @@ body::before {
 }
 
 .site-title-links a {
-  border-bottom: solid #2e405b 2px;
+  border-bottom: solid #01669a 2px;
 }
 
 .no-margin-left {
@@ -433,12 +433,12 @@ body::before {
 }
 
 a {
-  color: #2e405b;
+  color: #01669a;
   transition: color 0.3s ease 0s, background-color 0.3s ease 0s;
   -moz-transition: color 0.3s ease 0s, background-color 0.3s ease 0s;
   -o-transition: color 0.3s ease 0s, background-color 0.3s ease 0s;
   -webkit-transition: color 0.3s ease 0s, background-color 0.3s ease 0s;
-  border-bottom: solid #2e405b 2px;
+  border-bottom: solid #01669a 2px;
   padding: 0;
   cursor: pointer;
   cursor: hand;
@@ -450,12 +450,12 @@ a:hover, a:focus {
 
 a:hover {
   color: #ffffff !important;
-  background-color: #2e405b;
+  background-color: #01669a;
   border-bottom: solid transparent 2px;
 }
 
 a:focus {
-  color: black;
+  color: #000102;
 }
 
 .a-title {
@@ -469,19 +469,19 @@ a:focus {
 }
 
 .current {
-  border-bottom: solid #2e405b 3px !important;
+  border-bottom: solid #01669a 3px !important;
 }
 
 .a-mute {
   background-color: transparent;
-  color: #2e405b !important;
+  color: #01669a !important;
   text-decoration: none;
   border-bottom: none;
 }
 
 .a-mute:hover, .a-mute:focus {
   background-color: transparent;
-  color: #2e405b !important;
+  color: #01669a !important;
   text-decoration: none;
   border-bottom: none;
 }
@@ -496,14 +496,14 @@ a:focus {
 }
 
 .soc a:hover {
-  color: #3f587d !important;
+  color: #0188cd !important;
   background-color: transparent !important;
   text-decoration: none;
   border-bottom: solid rgba(0, 0, 0, 0) 2px;
 }
 
 .soc a:focus {
-  color: #3f587d !important;
+  color: #0188cd !important;
 }
 
 .meta-item {
@@ -635,13 +635,13 @@ figure .code pre {
     margin-right: 0 !important;
   }
   .site-title:hover {
-    color: #2e405b !important;
+    color: #01669a !important;
     background: transparent !important;
     padding: 0;
     border: none;
   }
   .site-title:hover * {
-    color: #2e405b !important;
+    color: #01669a !important;
     background: transparent !important;
   }
   .main-container {
@@ -777,13 +777,13 @@ figure .code pre {
     margin-right: 0 !important;
   }
   .site-title:hover {
-    color: #2e405b !important;
+    color: #01669a !important;
     background: transparent !important;
     padding: 0;
     border: none;
   }
   .site-title:hover * {
-    color: #2e405b !important;
+    color: #01669a !important;
     background: transparent !important;
   }
   .main-container {
@@ -917,6 +917,5 @@ pre[class*="language-"] {
 
 img.kanon {
   float: right;
-  margin: 0px 0px 15px 15px;
 }
 /*# sourceMappingURL=style.css.map */
