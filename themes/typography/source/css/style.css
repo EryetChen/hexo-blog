@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,300,400,600");
-@import url("https://fonts.googleapis.com/css?family=Noto+Serif+SC:100,300,400,600");
 @keyframes fadein {
   from {
     opacity: 0;
@@ -178,7 +177,7 @@ html h3,
 html h4,
 html h5,
 html h6 {
-  font-family: "Josefin Sans Light", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "PingFang SC", "'Hiragino Sans GB", STHeiti, "Source Han Sans SC", "Noto Sans CJK SC", "WenQuanYi Micro Hei", Arial, Verdana, sans-serif;
+  font-family: "Josefin Sans Light", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "PingFang SC", "'Hiragino Sans GB", STHeiti, "Source Han Sans SC", "WenQuanYi Micro Hei", Arial, Verdana, sans-serif;
   color: #01669a;
 }
 
@@ -191,7 +190,7 @@ html.serif h3,
 html.serif h4,
 html.serif h5,
 html.serif h6 {
-  font-family: "Source Han Serif CN", "Source Han Serif SC", "Source Han Serif", "source-han-serif-sc", "Noto Serif SC", "Noto Serif", "noto-serif-sc", "PT Serif", "SongTi SC", serif;
+  font-family: "Source Han Serif CN", "Source Han Serif SC", "Source Han Serif", "source-han-serif-sc", "PT Serif", "SongTi SC", serif;
 }
 
 .fa {
