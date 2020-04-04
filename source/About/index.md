@@ -2,7 +2,7 @@
 title: About
 date: 2020-03-17
 ---
-<img class="kanon" src="/images/kanon.jpg"></div>
+<div class="kanon"></div>
 
 > Give a man a program, frustrate him a day
 > Teach a man to program, frustrare him for a life time 

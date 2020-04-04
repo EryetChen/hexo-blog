@@ -511,7 +511,7 @@ a:focus {
 }
 
 img {
-  display: block;
+  display: ruby block;
   max-width: 100%;
   height: auto;
 }
@@ -915,8 +915,13 @@ pre[class*="language-"] {
   font-size: 12px !important;
 }
 
-img.kanon {
+.kanon {
+  display: ruby block;
+  height: 292px;
+  width: 240px;
   float: right;
+  background-image: url(/images/kanon.jpg);
+  background-repeat: no-repeat;
 }
 
 .image-title {

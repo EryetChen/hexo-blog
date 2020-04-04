@@ -95,8 +95,6 @@ let imageBox = ()=>{
     }
     
     imageBox()
-    
-    module.exports = imageBox
 
 /*ImageTitle*/
 let imageTitle = ()=>{
@@ -122,5 +120,3 @@ let imageTitle = ()=>{
     }
     
     imageTitle()
-    
-    module.exports = imageTitle
