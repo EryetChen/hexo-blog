@@ -5,7 +5,7 @@ date: 2020-03-17
 <div class="kanon"></div>
 
 > Give a man a program, frustrate him a day
-> Teach a man to program, frustrare him for a life time 
+> Teach a man to program, frustrate him for a lifetime 
 
 ## About Me
 
