@@ -1,9 +1,10 @@
 ---
 title: Sass - a css extension I hope I wish I'd known a long time ago
 categories:
-  - Coding
-date: 2020-03-29 16:14:15
+- Coding
 tags:
+- English
+date: 2020-03-29 16:14:15
 ---
 
 
@@ -11,9 +12,9 @@ On my progress on learning to build a blog for my own, I came across [Sass](http
 
 ### Why choose Sass over traditional css
 
--familiar coding style like other programming languange such as Java
--lots of features
--Sass is actively supported and developed
+- familiar coding style like other programming languange such as Java
+- lots of features
+- Sass is actively supported and developed
 
 ### Sass Features 
 
