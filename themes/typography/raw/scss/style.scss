@@ -1,10 +1,20 @@
 $backgroundColor: #ffffff;
 $foregroundColor: #2e405b;
-$fontList: "Source Sans Pro", "Roboto", "Helvetica", "Helvetica Neue",
-  "Source Han Sans SC", "Source Han Sans TC", "PingFang SC", "PingFang HK",
-  "PingFang TC", sans-serif;
-$titleFontList: "HiraMinProN-W6", "Source Han Serif CN", "Source Han Serif SC",
-  "Source Han Serif TC", serif;
+$fontList: "Source Sans Pro",
+"Roboto",
+"Helvetica",
+"Helvetica Neue",
+"Source Han Sans SC",
+"Source Han Sans TC",
+"PingFang SC",
+"PingFang HK",
+"PingFang TC",
+sans-serif;
+$titleFontList: "HiraMinProN-W6",
+"Source Han Serif CN",
+"Source Han Serif SC",
+"Source Han Serif TC",
+serif;
 $verticalPrimaryPaddingTopPatch: 0;
 $verticalSecondaryPaddingTopPatch: 1px;
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,300,400,600");
@@ -72,9 +82,11 @@ body {
   font-size: 18px;
   line-height: 1.5em;
 
-  @if lightness($backgroundColor) >50 {
+  @if lightness($backgroundColor)>50 {
     background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAACFJREFUeNpiZGBg4GegAsBlCD8TqSYNQg2Mo6FEBAAIMACdPABtrSW/IQAAAABJRU5ErkJggg==");
-  } @else {
+  }
+
+  @else {
     background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAACJJREFUeNpi/P//Py8DpQCXISBxJlING4QaGEdDiQgAEGAAg8sST3LGZYoAAAAASUVORK5CYII=");
   }
 
@@ -305,9 +317,11 @@ a {
     border-bottom: solid transparent 2px;
 
     &:hover {
-      @if lightness($foregroundColor) >50 {
+      @if lightness($foregroundColor)>50 {
         color: darken($foregroundColor, 10%) !important;
-      } @else {
+      }
+
+      @else {
         color: lighten($foregroundColor, 10%) !important;
       }
 
@@ -317,9 +331,11 @@ a {
     }
 
     &:focus {
-      @if lightness($foregroundColor) >50 {
+      @if lightness($foregroundColor)>50 {
         color: darken($foregroundColor, 10%) !important;
-      } @else {
+      }
+
+      @else {
         color: lighten($foregroundColor, 10%) !important;
       }
     }
@@ -375,7 +391,7 @@ figure {
   overflow: scroll;
 }
 
-figure > table {
+figure>table {
   width: 100%;
 }
 
@@ -394,8 +410,10 @@ figure {
     text-align: right;
     min-width: 3em;
   }
+
   .code {
     width: 99%;
+
     pre {
       border-bottom-left-radius: 0;
       border-top-left-radius: 0;
