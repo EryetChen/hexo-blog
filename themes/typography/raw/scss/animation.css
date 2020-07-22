@@ -1,0 +1,169 @@
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Firefox < 16 */
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Internet Explorer */
+
+/* Opera < 12.1 */
+
+@keyframes fadein-right {
+  from {
+    opacity: 0;
+    -webkit-transform: translateX(20px);
+            transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+/* Firefox < 16 */
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein-right {
+  from {
+    opacity: 0;
+    -webkit-transform: translateX(20px);
+            transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+/* Internet Explorer */
+
+/* Opera < 12.1 */
+
+@keyframes fadein-top {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+/* Firefox < 16 */
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein-top {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+/* Internet Explorer */
+
+/* Opera < 12.1 */
+
+@keyframes swift-down {
+  from {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+  to {
+    -webkit-transform: translateY(20%);
+            transform: translateY(20%);
+  }
+}
+
+/* Firefox < 16 */
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes swift-down {
+  from {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+  to {
+    -webkit-transform: translateY(20%);
+            transform: translateY(20%);
+  }
+}
+
+/* Internet Explorer */
+
+/* Opera < 12.1 */
+
+.invisible {
+  opacity: 0;
+}
+
+.fadeIn {
+  -webkit-animation: fadein 1s ease-out;
+  /* Safari, Chrome and Opera > 12.1 */
+  /* Firefox < 16 */
+  /* Internet Explorer */
+  /* Opera < 12.1 */
+  animation: fadein 1s ease-out;
+}
+
+.fadeInRight {
+  -webkit-animation: fadein-right 1s ease-out;
+  /* Safari, Chrome and Opera > 12.1 */
+  /* Firefox < 16 */
+  /* Internet Explorer */
+  /* Opera < 12.1 */
+  animation: fadein-right 1s ease-out;
+}
+
+.fadeInTop {
+  -webkit-animation: fadein-top 1s ease-out;
+  /* Safari, Chrome and Opera > 12.1 */
+  /* Firefox < 16 */
+  /* Internet Explorer */
+  /* Opera < 12.1 */
+  animation: fadein-top 1s ease-out;
+}
+
+.swiftDown {
+  -webkit-animation: swift-down 1s ease-out;
+  /* Safari, Chrome and Opera > 12.1 */
+  /* Firefox < 16 */
+  /* Internet Explorer */
+  /* Opera < 12.1 */
+  animation: swift-down 1s ease-out;
+}
+
+.swiftDownReversed {
+  -webkit-animation: swift-down 1s reverse ease-out;
+  /* Safari, Chrome and Opera > 12.1 */
+  /* Firefox < 16 */
+  /* Internet Explorer */
+  /* Opera < 12.1 */
+  animation: swift-down 1s reverse ease-out;
+}
+/*# sourceMappingURL=animation.css.map */

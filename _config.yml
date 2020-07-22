@@ -157,20 +157,19 @@ live2d:
   tagMode: false # Whether only to replace live2d tag instead of inject to all pages
   log: true # Whether to show logs in console
   model:
-    use: kanon
+    use: kanon-sr097
     scale: 1
     hHeadPos: 0.5
     vHeadPos: 0.618
   display:
     superSample: 2
     width: 300
-    height: 400
+    height: 450
     position: right
     hOffset: 0
-    vOffset: -50
+    vOffset: 0
   mobile:
-    show: true
-    scale: 1.0
+    show: false
   react:
     opacityDefault: 0.7
     opacityOnHover: 0.2

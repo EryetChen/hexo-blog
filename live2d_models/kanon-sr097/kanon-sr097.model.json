@@ -1,0 +1,48 @@
+{
+  "version": "Hexo Blog-Kanon Live2d sr-097",
+  "name": "kanon-sr097",
+  "model": "kanon_event079.moc",
+  "textures": [
+    "texture_00.png"
+  ],
+  "physics": "kanon_event079.physics.json",
+  "expressions":
+  [
+    {"name":"f01","file":"exp/f01.exp.json"},
+    {"name":"f02","file":"exp/f02.exp.json"},
+    {"name":"f03","file":"exp/f03.exp.json"},
+    {"name":"f04","file":"exp/f04.exp.json"},
+    {"name":"f05","file":"exp/f05.exp.json"},
+    {"name":"f06","file":"exp/f06.exp.json"}
+  ],
+  "layout":
+  {
+    "center_x":0,
+    "y":1.5,
+    "width":2.8
+  },
+  "hit_areas": [
+    {
+      "name": "head",
+      "id": "D_PSD.81"
+    },
+    {
+      "name": "body",
+      "id": "D_PSD.44"
+    }
+  ],
+  "motions":
+  {
+    "idle": [
+      {"file": "motions/idle_01.mtn", "fade_in": 10000},
+      {"file": "motions/idle_02.mtn", "fade_in": 10000},
+      {"file": "motions/idle_04.mtn", "fade_in": 10000}
+    ],
+    "tap_body": [
+      {"file": "motions/awate01.mtn"}
+    ],
+    "flick_head": [
+      { "file":"motions/angry01.mtn"}
+    ]
+  }
+}
